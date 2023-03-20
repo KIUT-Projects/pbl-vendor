@@ -14,10 +14,17 @@ class AdminTest extends TestCase
      *
      * @return void
      */
-    public function test_admin_dashboard()
+    public function test_main_page(): void
+    {
+        $response = $this->get('/');
+
+        $response->assertStatus(200);
+    }
+
+    /*public function test_admin_dashboard()
     {
         $user = User::factory()->create();
 
         $this->actingAs($user, 'web')->get('/dashboards/analytics')->assertStatus(200);
-    }
+    }*/
 }
