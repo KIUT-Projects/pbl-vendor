@@ -18,6 +18,6 @@ class AdminTest extends TestCase
     {
         $user = User::factory()->create();
 
-        $this->actingAs($user, 'web')->get('/dashboard')->assertStatus(200);
+        $this->actingAs($user, 'web')->get('/dashboards/analytics')->assertStatus(200);
     }
 }
