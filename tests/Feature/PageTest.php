@@ -13,7 +13,7 @@ class PageTest extends TestCase
      *
      * @return void
      */
-    public function test_main_page(): void
+    public function test_main_page()
     {
         $response = $this->get('/');
 
