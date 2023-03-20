@@ -1,5 +1,19 @@
 # PBL Vendor Project
 
+### Requirements
+- PHP ^8.0.2
+- Composer 2
+- Laravel v10.0
+- npm v9.6.0
+- node v18.1.0
+
+### Laravel required PHP Extensions
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Mbstring PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+
 ```shell
 composer install
 ```
