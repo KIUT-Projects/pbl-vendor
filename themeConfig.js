@@ -2,15 +2,15 @@ import { breakpointsVuetify } from '@vueuse/core'
 import { VIcon } from 'vuetify/components'
 
 // ❗ Logo SVG must be imported with ?raw suffix
-import logo from '@images/logo.svg?raw'
+import logo from '@images/logo-2.svg?raw'
 import { defineThemeConfig } from '@core'
 import { RouteTransitions, Skins } from '@core/enums'
 import { AppContentLayoutNav, ContentWidth, FooterType, NavbarType } from '@layouts/enums'
 
 export const { themeConfig, layoutConfig } = defineThemeConfig({
   app: {
-    title: 'Vuexy',
-    logo: h('div', { innerHTML: logo, style: 'line-height:0; color: rgb(var(--v-global-theme-primary))' }),
+    title: 'PBL Vendor',
+    logo: h('div', { innerHTML: logo, style: 'line-height:0; max-height: 50px; max-width: 50px; color: rgb(var(--v-global-theme-primary))' }),
     contentWidth: ContentWidth.Boxed,
     contentLayoutNav: AppContentLayoutNav.Vertical,
     overlayNavFromBreakpoint: breakpointsVuetify.md + 16,

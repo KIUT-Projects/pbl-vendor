@@ -27,9 +27,9 @@ const database = [
     id: 1,
     fullName: 'John Doe',
     username: 'johndoe',
-    password: 'admin',
+    password: 'password',
     avatar: avatar1,
-    email: 'admin@demo.com',
+    email: 'admin@kiut.uz',
     role: 'admin',
     abilities: [
       {
@@ -42,9 +42,9 @@ const database = [
     id: 2,
     fullName: 'Jane Doe',
     username: 'janedoe',
-    password: 'client',
+    password: 'password',
     avatar: avatar2,
-    email: 'client@demo.com',
+    email: 'user@kiut.uz',
     role: 'client',
     abilities: [
       {

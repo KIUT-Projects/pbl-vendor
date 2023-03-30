@@ -30,8 +30,8 @@ const errors = ref({
 })
 
 const refVForm = ref()
-const email = ref('admin@demo.com')
-const password = ref('admin')
+const email = ref('admin@kiut.uz')
+const password = ref('password')
 const rememberMe = ref(false)
 
 const login = () => {
@@ -118,10 +118,10 @@ const onSubmit = () => {
             variant="tonal"
           >
             <p class="text-caption mb-2">
-              Admin Email: <strong>admin@demo.com</strong> / Pass: <strong>admin</strong>
+              Admin Email: <strong>admin@kiut.uz</strong> / Pass: <strong>password</strong>
             </p>
             <p class="text-caption mb-0">
-              Client Email: <strong>client@demo.com</strong> / Pass: <strong>client</strong>
+              Client Email: <strong>user@kiut.uz</strong> / Pass: <strong>password</strong>
             </p>
           </VAlert>
         </VCardText>
