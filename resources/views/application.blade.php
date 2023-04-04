@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vuexy - Vuejs Admin Dashboard Template</title>
+  <title>{{ config('info.app_name_full') }}</title>
   <link rel="stylesheet" type="text/css" href="/loader.css" />
   @vite(['resources/js/main.js'])
 </head>

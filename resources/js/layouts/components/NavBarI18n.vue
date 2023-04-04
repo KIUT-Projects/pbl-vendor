@@ -14,8 +14,12 @@ const i18nCompLanguages = [
     i18nLang: 'fr',
   },
   {
-    label: 'Arabic',
-    i18nLang: 'ar',
+    label: 'Uzbek',
+    i18nLang: 'uz',
+  },
+  {
+    label: 'Russian',
+    i18nLang: 'ru',
   },
 ]
 

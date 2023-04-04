@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\WeightType;
+use App\Models\Currency;
 use Illuminate\Http\Request;
 
-class WeightTypeController extends Controller
+class CurrencyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class WeightTypeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(WeightType $weightType)
+    public function show(Currency $currency)
     {
         //
     }
@@ -42,7 +42,7 @@ class WeightTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(WeightType $weightType)
+    public function edit(Currency $currency)
     {
         //
     }
@@ -50,7 +50,7 @@ class WeightTypeController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, WeightType $weightType)
+    public function update(Request $request, Currency $currency)
     {
         //
     }
@@ -58,7 +58,7 @@ class WeightTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(WeightType $weightType)
+    public function destroy(Currency $currency)
     {
         //
     }

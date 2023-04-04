@@ -9,14 +9,9 @@ export default [
         icon: { icon: 'tabler-chart-bar' },
       },
       {
-        title: 'eCommerce',
+        title: 'eCommercee',
         to: 'dashboards-ecommerce',
         icon: { icon: 'tabler-shopping-cart' },
-      },
-      {
-        title: 'CRM',
-        to: 'dashboards-crm',
-        icon: { icon: 'tabler-heart-rate-monitor' },
       },
     ],
   },

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\UserRole;
+use App\Models\SubCategory;
 use Illuminate\Http\Request;
 
-class UserRoleController extends Controller
+class SubCategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class UserRoleController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(UserRole $userRole)
+    public function show(SubCategory $subCategory)
     {
         //
     }
@@ -42,7 +42,7 @@ class UserRoleController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(UserRole $userRole)
+    public function edit(SubCategory $subCategory)
     {
         //
     }
@@ -50,7 +50,7 @@ class UserRoleController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, UserRole $userRole)
+    public function update(Request $request, SubCategory $subCategory)
     {
         //
     }
@@ -58,7 +58,7 @@ class UserRoleController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(UserRole $userRole)
+    public function destroy(SubCategory $subCategory)
     {
         //
     }

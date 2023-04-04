@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\Models\UserDetail;
+use App\Models\Brand;
 use Illuminate\Http\Request;
 
-class UserDetailController extends Controller
+class BrandController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class UserDetailController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(UserDetail $userDetail)
+    public function show(Brand $brand)
     {
         //
     }
@@ -42,7 +42,7 @@ class UserDetailController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(UserDetail $userDetail)
+    public function edit(Brand $brand)
     {
         //
     }
@@ -50,7 +50,7 @@ class UserDetailController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, UserDetail $userDetail)
+    public function update(Request $request, Brand $brand)
     {
         //
     }
@@ -58,7 +58,7 @@ class UserDetailController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(UserDetail $userDetail)
+    public function destroy(Brand $brand)
     {
         //
     }
