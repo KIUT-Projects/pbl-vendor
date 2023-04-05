@@ -1,0 +1,47 @@
+{
+  "Dashboard":"Панель управления",
+  "POS Terminal":"POS терминал",
+  "Orders":"Заказы",
+  "Products":"Продукты",
+  "Categories":"Категории",
+  "Brands":"Бренды",
+  "Suppliers":"Поставщики",
+  "Payment":"Оплата",
+  "Currencies":"Валюты",
+  "Delivery":"Доставка",
+  "Locations":"Местоположения",
+  "Customers":"Клиенты",
+  "Administrators":"Администраторы",
+  "Roles":"Роли",
+  "Activity":"Активность",
+  "Access Control":"Контроль доступа",
+  "Premium":"Премиум",
+  "Support":"Поддержка",
+  "Documentation":"Документация",
+  "$vuetify":{
+     "badge":"Значок",
+     "pagination":{
+        "ariaLabel":{
+           "root":"корень",
+           "previous":"предыдущий",
+           "next":"следующий",
+           "currentPage":"текущая страница",
+           "page":"страница"
+        }
+     },
+     "input":{
+        "clear":"очистить",
+        "appendAction":"добавить действие",
+        "prependAction":"предварительное действие",
+        "counterSize":"размер счетчика"
+     },
+     "fileInput":{
+        "counterSize":"размер счетчика"
+     },
+     "rating":{
+        "ariaLabel":{
+           "item":"элемент"
+        }
+     }
+  }
+}

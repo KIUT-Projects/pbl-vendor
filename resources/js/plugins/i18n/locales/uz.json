@@ -1,0 +1,47 @@
+{
+    "Dashboard":"Boshqaruv paneli",
+    "POS Terminal":"POS terminali",
+    "Orders":"Buyurtmalar",
+    "Products":"Mahsulotlar",
+    "Categories":"Toifalar",
+    "Brands":"Brendlar",
+    "Suppliers":"Taminotchilar",
+    "Payment":"To'lov",
+    "Currencies":"Valyutalar",
+    "Delivery":"Yetkazib berish",
+    "Locations":"Manzillar",
+    "Customers":"Mijozlar",
+    "Administrators":"Administratorlar",
+    "Roles":"Rol",
+    "Activity":"Faoliyat",
+    "Access Control":"Kirish nazorati",
+    "Premium":"Premium",
+    "Support":"Qo'llab-quvvatlash",
+    "Documentation":"Hujjatlar",
+    "$vuetify":{
+       "badge":"Beyziq",
+       "pagination":{
+          "ariaLabel":{
+             "root":"rout",
+             "previous":"oldingi",
+             "next":"keyingi",
+             "currentPage":"joriy sahifa",
+             "page":"sahifa"
+          }
+       },
+       "input":{
+          "clear":"tozalash",
+          "appendAction":"qo'shish amaliyoti",
+          "prependAction":"oldindan qo'shish amaliyoti",
+          "counterSize":"sana ko'rsatkichi o'lchami"
+       },
+       "fileInput":{
+          "counterSize":"sana ko'rsatkichi o'lchami"
+       },
+       "rating":{
+          "ariaLabel":{
+             "item":"element"
+          }
+       }
+    }
+ }

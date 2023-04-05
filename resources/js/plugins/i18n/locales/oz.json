@@ -1,0 +1,47 @@
+{
+    "Dashboard":"Дашбоард",
+    "POS Terminal":"ПОС терминал",
+    "Orders":"Буюртмалар",
+    "Products":"Маҳсулотлар",
+    "Categories":"Категориялар",
+    "Brands":"Брендлар",
+    "Suppliers":"Таъминотчилар",
+    "Payment":"Тўлов",
+    "Currencies":"Валюталар",
+    "Delivery":"Юбориш",
+    "Locations":"Жойлашувлар",
+    "Customers":"Мижозлар",
+    "Administrators":"Администраторлар",
+    "Roles":"Ҳуқуқлар",
+    "Activity":"Фаолият",
+    "Access Control":"Кириш контроли",
+    "Premium":"Премиум",
+    "Support":"Қўллаб-турув",
+    "Documentation":"Ҳужжатлар",
+    "$vuetify":{
+       "badge":"Бадж",
+       "pagination":{
+          "ariaLabel":{
+             "root":"асос",
+             "previous":"ўтган",
+             "next":"кейинги",
+             "currentPage":"ҳозирги саҳифа",
+             "page":"саҳифа"
+          }
+       },
+       "input":{
+          "clear":"очистит",
+          "appendAction":"қўшиш ҳаракати",
+          "prependAction":"ёзиш ҳаракати",
+          "counterSize":"ҳисобчилик ҳажми"
+       },
+       "fileInput":{
+          "counterSize":"ҳисобчилик ҳажми"
+       },
+       "rating":{
+          "ariaLabel":{
+             "item":"элемент"
+          }
+       }
+    }
+ }

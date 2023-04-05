@@ -10,22 +10,18 @@ const i18nCompLanguages = [
     i18nLang: 'en',
   },
   {
-    label: 'French',
-    i18nLang: 'fr',
+    label: 'Русский',
+    i18nLang: 'ru',
   },
   {
-    label: 'Uzbek',
+    label: 'O`zbekcha',
     i18nLang: 'uz',
   },
   {
-    label: 'Russian',
-    i18nLang: 'ru',
+    label: 'Узбекча',
+    i18nLang: 'oz',
   },
 ]
-
-const handleLangChange = lang => {
-  isAppRtl.value = lang === 'ar'
-}
 </script>
 
 <template>

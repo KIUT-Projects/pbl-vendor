@@ -1,8 +1,7 @@
-import appAndPages from './app-and-pages'
-import charts from './charts'
 import dashboard from './dashboard'
-import forms from './forms'
+import sales from './sales'
+import ecommerce from './ecommerce'
+import users from './users'
 import others from './others'
-import uiElements from './ui-elements'
 
-export default [...dashboard, ...appAndPages, ...uiElements, ...forms, ...charts, ...others]
+export default [...dashboard, ...sales, ...ecommerce, ...users, ...others]

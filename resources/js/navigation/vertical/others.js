@@ -8,36 +8,12 @@ export default [
     subject: 'Auth',
   },
   {
-    title: 'Nav Levels',
-    icon: { icon: 'tabler-menu-2' },
-    children: [
-      {
-        title: 'Level 2.1',
-        to: null,
-      },
-      {
-        title: 'Level 2.2',
-        children: [
-          {
-            title: 'Level 3.1',
-            to: null,
-          },
-          {
-            title: 'Level 3.2',
-            to: null,
-          },
-        ],
-      },
-    ],
+    title: 'Premium',
+    to: 'access-control',
+    icon: { icon: 'tabler-diamond' },
   },
   {
-    title: 'Disabled Menu',
-    to: null,
-    icon: { icon: 'tabler-eye-off' },
-    disable: true,
-  },
-  {
-    title: 'Raise Support',
+    title: 'Support',
     href: 'https://pixinvent.ticksy.com/',
     icon: { icon: 'tabler-lifebuoy' },
     target: '_blank',

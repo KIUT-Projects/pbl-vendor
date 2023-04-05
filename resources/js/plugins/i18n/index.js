@@ -6,7 +6,7 @@ const messages = Object.fromEntries(Object.entries(
 
 export default createI18n({
   legacy: false,
-  locale: 'en',
+  locale: 'uz',
   fallbackLocale: 'en',
   messages,
 })
